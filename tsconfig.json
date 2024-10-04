@@ -1,0 +1,20 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    },
+    {
+      "path": "./tsconfig.app.json"
+    }
+  ],
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "baseUrl": "./",
+    "paths": {
+      "mitt": ["./node_modules/mitt/index.d.ts"]
+    }
+  }
+}
+
+
